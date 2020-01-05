@@ -1,2 +1,154 @@
-# autonomous-bot
-A self driving bot made using Raspberry Pi, Arduino UNO which is used for real-time detection and recognition of text in video streaming.
+# Auton
+
+<p align="center">
+  <img src="./logo/logo.png" width="180">
+</p>
+
+<p align="center">
+<img src="./images/bot.jpg" width="400">
+</p>
+
+- A self driving bot made using Raspberry Pi, OpenCV and UNO used in real-time video streaming detection and text recognition for barcodes and QR codes.
+
+[![Open Issues](https://img.shields.io/github/issues-raw/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/issues)
+[![Forks](https://img.shields.io/github/forks/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/network/members)
+[![Stars](https://img.shields.io/github/stars/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/stargazers)
+
+![Maintained](https://img.shields.io/maintenance/yes/2020)
+
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blueviolet?style=for-the-badge&logo=python)  
+![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative)  
+![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi)
+
+## :ledger: Index
+
+- [Index](#index)
+- [About](#about)
+- [Usage](#usage)
+- [Commands](#commands)
+  - [Installation](#installation)
+- [File Structure](#file-structure)
+- [Info Gallery](#gallery)
+- [Guidelines](#guideline)
+- [Resources](#resources)
+- [Present Contributors](#contributors)
+- [License](#license)
+
+## :beginner: About
+
+> Intelligent Office: a Luxury or a Necessity?
+
+Most people still refuse to engage in IoT in the workplace, although some of them have mixed feelings about them that have tried different products.
+Whether or not to implement these solutions in your office is ones call. But let's keep in mind that a powerful competitive advantage over the competition can become even the slightest increase in one's business efficiency.
+And not to mention the fact that a comfortable office environment can help you attract and
+retain the best talent.
+As you can see, the benefits of IoT in an office are obvious.
+<br>
+
+<p> Therefore made an autonomous bot for real-time detection and text recognition in barcodes and QR codes for video streaming . 
+Specific barcodes are assigned to different office employees, now we will scan the barcode it and will return the required data of
+the person (in our project the specific data is the name of the person and its basic details).
+<br>
+In our project, we are using a combination of Internet Of Things (IoT) and Python smart libraries. 
+</p>
+<br>
+
+## :zap: Usage
+
+We shall add-on these technologies to:
+- Increase productivity
+- Streamline daily routine tasks 
+<br>
+Make a comfortable environment for employees for their better performance
+## :electric_plug: Installation
+
+### :package: Commands
+
+Just want to run the application, what you can do is:
+<br>
+Make sure to install OpenCV correctly in your Raspberry Pi. You may refer [this](https://www.pyimagesearch.com/opencv-tutorials-resources-guides/) for further clarification. <br>
+
+- For understanding the whole process throughly and to install all the required packages [here](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/) is the best guide. <br>
+
+- Clone the repository
+
+```bash
+$ git clone https://github.com/codekhal/autonomous-bot.git 
+
+```
+
+- Install dependencies by using the following commands.
+
+```bash
+$ cd autonomous-bot
+```
+Note:
+
+**It considered a good practice to hide your credentials in .env file and then not pushing onto the version control. Although same would be considered when the app is deployed in near future.**
+
+- Finally run the application using 
+
+```bash
+$ python3 barcode_scanner.py
+```  
+Note: It is important you write **python3**, since all the packages are install for this version only.
+
+## File Structure
+
+- File structure with the basic details about files and directories.
+
+```bash
+- __autonomous-bot__
+  - [LICENSE](autonomous-bot/LICENSE)
+  - [README.md](autonomous-bot/README.md)
+
+```
+## :camera: Info Gallery
+
+<p align="center">
+  <img src="./images/finaloutput.jpg" width="400"> <br>
+  Final Output <br><hr/><br>
+  <!-- <img src="./screenshots/2.png"> <br><hr/><br>
+  <img src="./screenshots/3.png"> <br><hr/><br>
+  <img src="./screenshots/4.png"> <br><hr/><br>
+  <img src="./screenshots/5.png"> <br><hr/><br>
+  <img src="./screenshots/6.png"> <br><hr/><br>
+  <img src="./screenshots/7.jpg"><br> -->
+</p>
+
+
+## Guidelines
+
+- __Contribution Guidelines__
+
+Future Work that could be done:
+
+- Flask App Deployment/Android App -​ ​ Deploy the app so that employees could use it
+through their phone itself and it will provide convenience to daily basic needs.
+
+- Database -​ We have to rely on inputs every time and databases are a remedy for that. We shall store
+basis information of the respective faculties and finally help the bot to train well. Therefore one could plan to
+implement a database for storing information for training purposes.
+
+- Use of Deep Learning -​ One may try and use deep learning for learning the surroundings and object detection so that our
+bot moves smoothly around the cabins and office without we proving some hard-coded commands. Deep Learning shall help us get more accurate and better performance.
+
+
+Kindly follow the [*Contributions Guildlines*](https://gist.github.com/PurpleBooth/b24679402957c63ec426) before you create any pull requests or issues. Though feel free to contribute in any form. <br> Open Source <3
+
+##  :page_facing_up: Resources
+
+- [Zbar library](http://zbar.sourceforge.net/)
+- [Good read Article](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/)
+
+## :star2: Present Contributors
+[![Contributors](https://img.shields.io/github/contributors/codekhal/autonomous-bot?style=plastic)](https://github.com/codekhal/autonomous-bot/graphs/contributors)
+
+### Want to share your ideas
+
+`Feel free to reach out to me`
+
+[![Telegram](https://img.shields.io/badge/Telegram-Chat-yellowgreen)](https://telegram.me/codekhal)
+
+## :lock: License
+[![License](https://img.shields.io/github/license/codekhal/autonomous-bot?style=plastic)](https://github.com/codekhal/autonomous-bot/blob/master/LICENSE)
