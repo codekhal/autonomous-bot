@@ -28,6 +28,7 @@
 - [Commands](#commands)
   - [Installation](#installation)
 - [File Structure](#file-structure)
+- [Brief Description and Proposed Solution](#brief-description-and-proposed-solution)
 - [Info Gallery](#gallery)
 - [Guidelines](#guideline)
 - [Resources](#resources)
@@ -60,9 +61,19 @@ We shall add-on these technologies to:
 - Streamline daily routine tasks 
 <br>
 Make a comfortable environment for employees for their better performance
+
 ## :electric_plug: Installation
 
 ### :package: Commands
+
+#### Packages which should be imported:
+- **imutils**:​ A series of convenience functions to make basic image processing functions such as
+translation, rotation and resizing much easier with OpenCV and python.
+- **argparse**: ​ It is included with the Python install and it is responsible for parsing command-line
+arguments.
+- **VideoStream**: Used to handle capturing video frames in an efficient and threaded approach. This class
+will call either ​ WebcamVideoStream​ or ​ PiVideoStream​ based on the arguments supplied to the
+constructor.
 
 Just want to run the application, what you can do is:
 <br>
@@ -103,9 +114,37 @@ Note: It is important you write **python3**, since all the packages are install 
   - [README.md](autonomous-bot/README.md)
 
 ```
+
+## Brief Description of Proposed Solution
+
+- An autonomous-bot made using Raspberry Pi, Arduino Uno, Raspi Cam and three ultrasonic sensors. We used Python, OpenCV, pyzbar to detect and recognise tect from QR codes or Barcodes. It uses a map made using Data Structure (Linkedlist,trees,graphs or even simple aray works) and after providing the source and destination. It also senses obstacles and people walking around and using its ultrasonic sensors reaches its defined location and finally a buzzer sound or LED light, either can be used to indicate arrival of bot to its destination. It is useful in transferring various items from one cabin to another and could act as a helping hand in an office environment.
+
+### About Quick Response code or QR Codes:
+
+<p align="center">
+<img src="./images/qrcodeZones.png" width="400">
+</p>
+
+Note: OR Codes were developed to improve the reading speed of complex 2D barcodes.
+
+- Pattern:​ Three big squares in the corners used for detecting the position, the size and the angle of the QR
+code.
+- Alignment Pattern:​ A pattern used for correcting the distortion of the QR code. These distortions could
+occur for example when attaching the codes onto a curved surface.
+- Timing Pattern:​ It consists of white and black modules arranged alternately and placed between two
+position patterns. It is used to determine the central coordinate of each cell in the QR code.
+- Quiet Zone:​ A margin space that makes easier to detect the QR code. At least four cells are required for
+the quiet zone.
+- Data Area​ : The area in the QR code that contains the data (for example a URL) encoded in binary
+numbers.
+
 ## :camera: Info Gallery
 
 <p align="center">
+  <img src="./images/pyzbarDecoding.png" width="400"> <br>
+  Pyzbar Decoding of our vedio frame <br><hr/><br>
+  <img src="./images/fullWorking.png" width="400"> <br>
+  Final Working of our Model <br><hr/><br>
   <img src="./images/finaloutput.jpg" width="400"> <br>
   Final Output <br><hr/><br>
   <!-- <img src="./screenshots/2.png"> <br><hr/><br>
@@ -121,7 +160,7 @@ Note: It is important you write **python3**, since all the packages are install 
 
 - __Contribution Guidelines__
 
-Future Work that could be done:
+**Future Work that could be done**:
 
 - Flask App Deployment/Android App -​ ​ Deploy the app so that employees could use it
 through their phone itself and it will provide convenience to daily basic needs.
