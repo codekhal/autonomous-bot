@@ -143,7 +143,7 @@ numbers.
 <p align="center">
   <img src="./images/pyzbarDecoding.png" width="400"> <br>
   Pyzbar Decoding of our vedio frame <br><hr/><br>
-  <img src="./images/fullWorking.png" width="400"> <br>
+  <img src="./images/fullWorking.jpeg" width="400"> <br>
   Final Working of our Model <br><hr/><br>
   <img src="./images/finaloutput.jpg" width="400"> <br>
   Final Output <br><hr/><br>
