@@ -67,6 +67,7 @@ Make a comfortable environment for employees for their better performance
 ### :package: Commands
 
 #### Packages which should be imported:
+- **pyzbar**: Python wrapper for zbar library. 
 - **imutils**:​ A series of convenience functions to make basic image processing functions such as
 translation, rotation and resizing much easier with OpenCV and python.
 - **argparse**: ​ It is included with the Python install and it is responsible for parsing command-line
@@ -88,23 +89,22 @@ $ git clone https://github.com/codekhal/autonomous-bot.git
 
 ```
 
-- Install dependencies by using the following commands.
+- Install dependencies.
 
 ```bash
 $ cd autonomous-bot
 ```
-Note:
 
-**It considered a good practice to hide your credentials in .env file and then not pushing onto the version control. Although same would be considered when the app is deployed in near future.**
-
-- Finally run the application using 
+- Now in your terminal, run the application using 
 
 ```bash
 $ python3 barcode_scanner.py
 ```  
-Note: It is important you write **python3**, since all the packages are install for this version only.
+Note: It is important you write **python3**, since all the packages are install for this version only. Mind you it will take lots of efforts to let everything run smooth and free of errors, like it took at my time. 
 
-## File Structure
+- Finally, place a QR Code in front of your WebCam or RaspiCam which ever you prefer. Hope you will get required result.
+
+## :open_file_folder: File Structure
 
 - File structure with the basic details about files and directories.
 
@@ -143,33 +143,31 @@ numbers.
 <p align="center">
   <img src="./images/pyzbarDecoding.png" width="400"> <br>
   Pyzbar Decoding of our vedio frame <br><hr/><br>
+</p>
+<p align="center">
   <img src="./images/fullWorking.jpeg" width="400"> <br>
   Final Working of our Model <br><hr/><br>
+</p>
+<p align="center">
   <img src="./images/finaloutput.jpg" width="400"> <br>
   Final Output <br><hr/><br>
-  <!-- <img src="./screenshots/2.png"> <br><hr/><br>
-  <img src="./screenshots/3.png"> <br><hr/><br>
-  <img src="./screenshots/4.png"> <br><hr/><br>
-  <img src="./screenshots/5.png"> <br><hr/><br>
-  <img src="./screenshots/6.png"> <br><hr/><br>
-  <img src="./screenshots/7.jpg"><br> -->
 </p>
 
 
-## Guidelines
+## :scroll: Guidelines
 
 - __Contribution Guidelines__
 
 **Future Work that could be done**:
 
-- Flask App Deployment/Android App -​ ​ Deploy the app so that employees could use it
+- *Flask App Deployment/Android App* -​ ​ Deploy the app so that employees could use it
 through their phone itself and it will provide convenience to daily basic needs.
 
-- Database -​ We have to rely on inputs every time and databases are a remedy for that. We shall store
+- *Database* -​ We have to rely on inputs every time and databases are a remedy for that. We shall store
 basis information of the respective faculties and finally help the bot to train well. Therefore one could plan to
 implement a database for storing information for training purposes.
 
-- Use of Deep Learning -​ One may try and use deep learning for learning the surroundings and object detection so that our
+- *Use of Deep Learning* -​ One may try and use deep learning for learning the surroundings and object detection so that our
 bot moves smoothly around the cabins and office without we proving some hard-coded commands. Deep Learning shall help us get more accurate and better performance.
 
 
