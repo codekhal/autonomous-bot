@@ -9,6 +9,7 @@
 </p>
 
 - A self driving bot made using Raspberry Pi, OpenCV and UNO used in real-time video streaming detection and text recognition for barcodes and QR codes.
+> Working prototype for our project: https://vimeo.com/user107402143/review/384221710/95ba08c605
 
 [![Open Issues](https://img.shields.io/github/issues-raw/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/issues)
 [![Forks](https://img.shields.io/github/forks/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/network/members)
@@ -110,9 +111,29 @@ Note: It is important you write **python3**, since all the packages are install 
 
 ```bash
 - __autonomous-bot__
-  - [LICENSE](autonomous-bot/LICENSE)
-  - [README.md](autonomous-bot/README.md)
+├── images
+│   ├── bot.jpg
+│   ├── finaloutput.jpg
+│   ├── fullWorking.jpeg
+│   ├── image12.png
+│   ├── image1.png
+│   ├── image3.gif
+│   ├── image7.png
+│   ├── pyzbarDecoding.png
+│   ├── qrcodeZones.png
+│   └── workingModel.png
+├── LICENSE
+├── logo
+│   ├── Auton.png
+│   ├── favicon_io
+│   │   ├── favicon-16x16.png
+│   │   ├── favicon-32x32.png
+│   │   └── favicon.ico
+│   └── logo.png
+├── main.py
+└── README.md
 
+3 directories, 18 files
 ```
 
 ## Brief Description of Proposed Solution
@@ -153,6 +174,7 @@ numbers.
   Final Output <br><hr/><br>
 </p>
 
+- For underastanding the full use case of this project refer to [this](https://github.com/codekhal/autonomous-bot/blob/master/images/workingModel.png) full working diagram.
 
 ## :scroll: Guidelines
 
@@ -184,7 +206,7 @@ Kindly follow the [*Contributions Guildlines*](https://gist.github.com/PurpleBoo
 ### Want to share your ideas
 
 `Feel free to reach out to me`
-
+https://github.com/codekhal/autonomous-bot/blob/master/images/workingModel.png
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-yellowgreen)](https://telegram.me/codekhal)
 
 ## :lock: License
