@@ -111,6 +111,8 @@ Note: It is important you write **python3**, since all the packages are install 
 
 ```bash
 - __autonomous-bot__
+├── bot.ide
+├── _config.yml
 ├── images
 │   ├── bot.jpg
 │   ├── finaloutput.jpg
@@ -133,7 +135,7 @@ Note: It is important you write **python3**, since all the packages are install 
 ├── main.py
 └── README.md
 
-3 directories, 18 files
+3 directories, 20 files
 ```
 
 ## Brief Description of Proposed Solution
