@@ -9,7 +9,7 @@
 </p>
 
 - A self driving bot made using Raspberry Pi, OpenCV and UNO used in real-time video streaming detection and text recognition for barcodes and QR codes.
-> Working prototype for our project: https://vimeo.com/384221710?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=28749
+> Working prototype of this project is [*here*](https://vimeo.com/384221710?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=28749)
 
 [![Open Issues](https://img.shields.io/github/issues-raw/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/issues)
 [![Forks](https://img.shields.io/github/forks/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/network/members)
@@ -209,6 +209,7 @@ Kindly follow the [*Contributions Guildlines*](https://gist.github.com/PurpleBoo
 ### Want to share your ideas
 
 `Feel free to reach out to me`
+
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-yellowgreen)](https://telegram.me/codekhal)
 
 ## :lock: License
