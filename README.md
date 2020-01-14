@@ -9,7 +9,7 @@
 </p>
 
 - A self driving bot made using Raspberry Pi, OpenCV and UNO used in real-time video streaming detection and text recognition for barcodes and QR codes.
-> Working prototype for our project: https://vimeo.com/user107402143/review/384221710/95ba08c605
+> Working prototype for our project: https://vimeo.com/384221710?utm_source=email&utm_medium=vimeo-cliptranscode-201504&utm_campaign=28749
 
 [![Open Issues](https://img.shields.io/github/issues-raw/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/issues)
 [![Forks](https://img.shields.io/github/forks/codekhal/autonomous-bot?style=for-the-badge)](https://github.com/codekhal/autonomous-bot/network/members)
@@ -199,6 +199,7 @@ Kindly follow the [*Contributions Guildlines*](https://gist.github.com/PurpleBoo
 
 ##  :page_facing_up: Resources
 
+- [Full Working Model](https://github.com/codekhal/autonomous-bot/blob/master/images/workingModel.png)
 - [Zbar library](http://zbar.sourceforge.net/)
 - [Good read Article](https://www.pyimagesearch.com/2018/05/21/an-opencv-barcode-and-qr-code-scanner-with-zbar/)
 
@@ -208,7 +209,6 @@ Kindly follow the [*Contributions Guildlines*](https://gist.github.com/PurpleBoo
 ### Want to share your ideas
 
 `Feel free to reach out to me`
-https://github.com/codekhal/autonomous-bot/blob/master/images/workingModel.png
 [![Telegram](https://img.shields.io/badge/Telegram-Chat-yellowgreen)](https://telegram.me/codekhal)
 
 ## :lock: License
